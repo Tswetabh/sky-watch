@@ -86,8 +86,12 @@ ollama pull gemma3:4b
 ```
 *(Optional alternate models: `ollama pull gemma:2b` or `ollama pull llama3.2:3b`)*
 
-### 3. Install & Start Development Server
+### 3. Clone, Install & Start Development Server
 ```bash
+# Clone repository
+git clone https://github.com/Tswetabh/sky-watch.git
+cd sky-watch
+
 # Install dependencies
 npm install
 
