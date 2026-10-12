@@ -5,6 +5,8 @@ import { PlanRequest, SkyPlan } from '../types/planner';
 import { generateSkyPlanWithGemma } from '../lib/agent/gemmaClient';
 import { cachePlan } from '../lib/db';
 
+import { generateDeterministicPlan } from '../lib/agent/deterministicPlanner';
+
 interface PlanViewProps {
   onStartWatchSession: (plan: SkyPlan) => void;
   isRedLight: boolean;
@@ -30,21 +32,34 @@ export const PlanView: React.FC<PlanViewProps> = ({
     setIsGenerating(true);
     setErrorNotice(null);
 
+    const safeLat = typeof userCoords?.lat === 'number' && !isNaN(userCoords.lat) ? userCoords.lat : 40.7128;
+    const safeLon = typeof userCoords?.lon === 'number' && !isNaN(userCoords.lon) ? userCoords.lon : -74.0060;
+
     const request: PlanRequest = {
       minutes,
       mode: selectedMode,
-      lat: userCoords.lat,
-      lon: userCoords.lon,
-      locationName: userCoords.name,
+      lat: safeLat,
+      lon: safeLon,
+      locationName: userCoords?.name || 'Local Horizon',
       date: new Date(),
     };
 
     try {
       const generated = await generateSkyPlanWithGemma(request);
       setPlan(generated);
-      await cachePlan(generated);
+      try {
+        await cachePlan(generated);
+      } catch {
+        // Cache warning ignored
+      }
     } catch (err: any) {
-      setErrorNotice(err.message || 'Failed to generate plan.');
+      console.warn('Gemma plan generation exception, running deterministic fallback:', err);
+      try {
+        const fallback = await generateDeterministicPlan(request, 'Offline Astronomical Engine');
+        setPlan(fallback);
+      } catch (fallbackErr: any) {
+        setErrorNotice(fallbackErr?.message || 'Plan generation failed.');
+      }
     } finally {
       setIsGenerating(false);
     }
