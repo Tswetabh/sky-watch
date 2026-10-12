@@ -1,6 +1,6 @@
 import * as Astronomy from 'astronomy-engine';
 import meteorShowersData from '../data/meteorShowers.json';
-import { SkyEvent, SkyEventType } from '../types/planner';
+import { SkyEvent } from '../types/planner';
 
 export interface ObserverLocation {
   lat: number;

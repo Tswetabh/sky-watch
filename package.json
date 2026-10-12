@@ -10,7 +10,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "swap-model": "node scripts/swap-model.js",
-    "compare-models": "node scripts/compare-models.js"
+    "compare-models": "tsx scripts/compare-models.ts",
+    "verify-offline": "tsx scripts/airplane-mode-verify.ts"
   },
   "dependencies": {
     "astronomy-engine": "^2.1.19",
@@ -29,6 +30,7 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
+    "tsx": "^4.23.15",
     "typescript": "^5.6.2",
     "vite": "^5.4.8",
     "vite-plugin-pwa": "^0.20.5",
