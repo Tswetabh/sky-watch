@@ -1,0 +1,50 @@
+{
+  "notice": "Mock Stargazing Sessions API dataset. Demonstrates one-tap join for community field meets without social feeds or chat.",
+  "sessions": [
+    {
+      "id": "comm-01",
+      "title": "Orionids Watch & Red Light Circle",
+      "organizer": "Astronomy Grassroots Club",
+      "locationName": "North Meadow Ridge",
+      "lat": 40.782,
+      "lon": -73.965,
+      "distanceKm": 3.2,
+      "startTime": "2024-10-12T20:30:00Z",
+      "durationMinutes": 60,
+      "attendeesCount": 8,
+      "mode": "beginner",
+      "targetFocus": "Saturn rings & naked-eye Orionid meteor trails",
+      "joined": false
+    },
+    {
+      "id": "comm-02",
+      "title": "Family Moon & ISS Flyby Camp",
+      "organizer": "Parks & Star Gazers",
+      "locationName": "Pine Hollow Clearing",
+      "lat": 40.812,
+      "lon": -73.940,
+      "distanceKm": 6.8,
+      "startTime": "2024-10-12T21:15:00Z",
+      "durationMinutes": 45,
+      "attendeesCount": 14,
+      "mode": "family",
+      "targetFocus": "Craters of Tycho and Copernicus + ISS flyby",
+      "joined": false
+    },
+    {
+      "id": "comm-03",
+      "title": "Dark Sky Deep Hour (No Screens)",
+      "organizer": "Silent Stargazers Guild",
+      "locationName": "High Knob Overlook",
+      "lat": 40.850,
+      "lon": -74.020,
+      "distanceKm": 14.5,
+      "startTime": "2024-10-12T22:00:00Z",
+      "durationMinutes": 90,
+      "attendeesCount": 5,
+      "mode": "short-session",
+      "targetFocus": "Milky Way dust lanes, Andromeda galaxy binocular spotting",
+      "joined": false
+    }
+  ]
+}

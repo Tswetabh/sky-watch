@@ -1,0 +1,6 @@
+{
+  "ollamaHost": "http://localhost:11434",
+  "model": "gemma3:4b",
+  "temperature": 0.2,
+  "timeoutMs": 12000
+}

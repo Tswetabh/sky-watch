@@ -1,0 +1,171 @@
+{
+  "dataSource": "Synthesized reference grid calibrated to the New World Atlas of Artificial Night Sky Brightness (Falchi et al., 2016) and International Dark-Sky Association (IDA) Dark Sky Reserves.",
+  "limits": "Offline reference grid provides regional baseline Bortle estimates and designated dark sky sites within 10-150 km. It cannot dynamically capture temporary local ground lights (e.g., stadium floodlights, streetlamps 20 meters away). Field validation with red-light vision adaptation is recommended.",
+  "spots": [
+    {
+      "name": "Cherry Springs State Park",
+      "region": "Pennsylvania, USA",
+      "lat": 41.6631,
+      "lon": -77.8236,
+      "bortle": 2,
+      "artificialBrightnessMcd": 0.04,
+      "elevationM": 710,
+      "description": "Gold Tier International Dark Sky Park in an astronomy viewing bowl with 360-degree horizon.",
+      "type": "State Park / Dark Sky Reserve"
+    },
+    {
+      "name": "Natural Bridges National Monument",
+      "region": "Utah, USA",
+      "lat": 37.6015,
+      "lon": -110.0135,
+      "bortle": 1,
+      "artificialBrightnessMcd": 0.01,
+      "elevationM": 1980,
+      "description": "World's first International Dark Sky Park. Pristine Bortle 1 skies with visible zodiacal light and airglow.",
+      "type": "National Monument"
+    },
+    {
+      "name": "Big Bend National Park",
+      "region": "Texas, USA",
+      "lat": 29.2498,
+      "lon": -103.2502,
+      "bortle": 1,
+      "artificialBrightnessMcd": 0.01,
+      "elevationM": 1150,
+      "description": "Darkest night skies in the contiguous United States with pristine Bortle 1 horizon clarity.",
+      "type": "National Park"
+    },
+    {
+      "name": "Galloway Forest Park",
+      "region": "Scotland, UK",
+      "lat": 55.1333,
+      "lon": -4.4333,
+      "bortle": 2,
+      "artificialBrightnessMcd": 0.06,
+      "elevationM": 450,
+      "description": "First Dark Sky Park in the UK, expansive forested ridges away from Glasgow light dome.",
+      "type": "Forest Park"
+    },
+    {
+      "name": "Pic du Midi de Bigorre",
+      "region": "Pyrenees, France",
+      "lat": 42.9369,
+      "lon": 0.1417,
+      "bortle": 2,
+      "artificialBrightnessMcd": 0.05,
+      "elevationM": 2877,
+      "description": "High alpine observatory reserve above cloud inversions with transparent atmosphere.",
+      "type": "International Dark Sky Reserve"
+    },
+    {
+      "name": "Aoraki Mackenzie Dark Sky Reserve",
+      "region": "South Island, New Zealand",
+      "lat": -43.9833,
+      "lon": 170.4500,
+      "bortle": 1,
+      "artificialBrightnessMcd": 0.01,
+      "elevationM": 750,
+      "description": "Pristine southern hemisphere sanctuary for Magellanic Clouds and Carina Nebula viewing.",
+      "type": "Dark Sky Reserve"
+    },
+    {
+      "name": "Warrumbungle National Park",
+      "region": "New South Wales, Australia",
+      "lat": -31.2833,
+      "lon": 149.0000,
+      "bortle": 1,
+      "artificialBrightnessMcd": 0.01,
+      "elevationM": 800,
+      "description": "Australia's first International Dark Sky Park adjacent to Siding Spring Observatory.",
+      "type": "National Park"
+    },
+    {
+      "name": "Shenandoah National Park (Skyline Drive)",
+      "region": "Virginia, USA",
+      "lat": 38.5200,
+      "lon": -78.4350,
+      "bortle": 4,
+      "artificialBrightnessMcd": 0.35,
+      "elevationM": 1050,
+      "description": "Accessible mountain ridge overlooks with moderate eastern light dome but crisp western vistas.",
+      "type": "National Park Overlook"
+    },
+    {
+      "name": "Joshua Tree National Park",
+      "region": "California, USA",
+      "lat": 33.8734,
+      "lon": -115.9010,
+      "bortle": 3,
+      "artificialBrightnessMcd": 0.18,
+      "elevationM": 980,
+      "description": "High desert skies with crisp dry transparency, distinct Milky Way structure from Cottonwood.",
+      "type": "National Park"
+    },
+    {
+      "name": "Spruce Knob High Plateau",
+      "region": "West Virginia, USA",
+      "lat": 38.7001,
+      "lon": -79.5317,
+      "bortle": 2,
+      "artificialBrightnessMcd": 0.05,
+      "elevationM": 1482,
+      "description": "Highest point in Allegheny Mountains, deep dark mountain plateau skies.",
+      "type": "National Recreation Area"
+    },
+    {
+      "name": "Griffith Observatory & Ridge Trail",
+      "region": "Los Angeles, California, USA",
+      "lat": 34.1184,
+      "lon": -118.3004,
+      "bortle": 8,
+      "artificialBrightnessMcd": 9.5,
+      "elevationM": 350,
+      "description": "Urban park overlook suitable for bright planets, Moon, and ISS passes through light smog.",
+      "type": "Urban Park / Landmark"
+    },
+    {
+      "name": "Central Park Great Lawn",
+      "region": "New York City, USA",
+      "lat": 40.7812,
+      "lon": -73.9665,
+      "bortle": 9,
+      "artificialBrightnessMcd": 18.2,
+      "elevationM": 35,
+      "description": "High light pollution urban core; optimal for lunar craters and brilliant Jupiter/Venus apparitions.",
+      "type": "Urban Center"
+    },
+    {
+      "name": "Hampstead Heath Parliament Hill",
+      "region": "London, UK",
+      "lat": 51.5606,
+      "lon": -0.1583,
+      "bortle": 8,
+      "artificialBrightnessMcd": 11.0,
+      "elevationM": 98,
+      "description": "Elevated London viewpoint allowing bright planet and satellite sighting over city haze.",
+      "type": "City Hill Park"
+    },
+    {
+      "name": "Ladakh Hanle Observatory Basin",
+      "region": "Ladakh, India",
+      "lat": 32.7794,
+      "lon": 78.9642,
+      "bortle": 1,
+      "artificialBrightnessMcd": 0.01,
+      "elevationM": 4500,
+      "description": "Indian Astronomical Observatory dark sky sanctuary. Ultra-dry cold high-altitude transparent sky.",
+      "type": "High Altitude Sanctuary"
+    },
+    {
+      "name": "Sariska Tiger Reserve Outskirts",
+      "region": "Rajasthan, India",
+      "lat": 27.3200,
+      "lon": 76.4300,
+      "bortle": 3,
+      "artificialBrightnessMcd": 0.22,
+      "elevationM": 420,
+      "description": "Protected Aravalli hills basin buffering Delhi/Jaipur light pollution.",
+      "type": "Wildlife Sanctuary Buffer"
+    }
+  ]
+}

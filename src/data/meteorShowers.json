@@ -1,0 +1,98 @@
+[
+  {
+    "id": "quadrantids",
+    "name": "Quadrantids",
+    "start": "12-28",
+    "end": "01-12",
+    "peak": "01-03",
+    "zhr": 110,
+    "radiant": "Boötes / Quadrans Muralis",
+    "velocityKmS": 41,
+    "parent": "Asteroid 2003 EH1",
+    "notes": "Intense but sharp peak (~6 hours). Best observed in early morning hours."
+  },
+  {
+    "id": "lyrids",
+    "name": "Lyrids",
+    "start": "04-14",
+    "end": "04-30",
+    "peak": "04-22",
+    "zhr": 18,
+    "radiant": "Lyra (near Vega)",
+    "velocityKmS": 49,
+    "parent": "Comet C/1861 G1 Thatcher",
+    "notes": "Medium-speed meteors known for leaving luminous trails."
+  },
+  {
+    "id": "eta-aquariids",
+    "name": "Eta Aquariids",
+    "start": "04-19",
+    "end": "05-28",
+    "peak": "05-06",
+    "zhr": 50,
+    "radiant": "Aquarius",
+    "velocityKmS": 66,
+    "parent": "1P/Halley (Halley's Comet)",
+    "notes": "Fast meteors with long glowing persistent trains."
+  },
+  {
+    "id": "perseids",
+    "name": "Perseids",
+    "start": "07-17",
+    "end": "08-24",
+    "peak": "08-12",
+    "zhr": 100,
+    "radiant": "Perseus",
+    "velocityKmS": 59,
+    "parent": "109P/Swift-Tuttle",
+    "notes": "One of the most reliable and spectacular annual showers with frequent fireballs."
+  },
+  {
+    "id": "orionids",
+    "name": "Orionids",
+    "start": "10-02",
+    "end": "11-07",
+    "peak": "10-21",
+    "zhr": 20,
+    "radiant": "Orion (near Betelgeuse)",
+    "velocityKmS": 66,
+    "parent": "1P/Halley",
+    "notes": "Swift meteors with fine persistent ionization trails."
+  },
+  {
+    "id": "leonids",
+    "name": "Leonids",
+    "start": "11-06",
+    "end": "11-30",
+    "peak": "11-17",
+    "zhr": 15,
+    "radiant": "Leo (Sickle)",
+    "velocityKmS": 71,
+    "parent": "55P/Tempel-Tuttle",
+    "notes": "Extremely high velocity meteors with bright greenish trains."
+  },
+  {
+    "id": "geminids",
+    "name": "Geminids",
+    "start": "12-04",
+    "end": "12-20",
+    "peak": "12-14",
+    "zhr": 120,
+    "radiant": "Gemini (near Castor)",
+    "velocityKmS": 35,
+    "parent": "Asteroid 3200 Phaethon",
+    "notes": "King of meteor showers: bright, slow, colorful multi-hued meteors observable before midnight."
+  },
+  {
+    "id": "ursids",
+    "name": "Ursids",
+    "start": "12-17",
+    "end": "12-26",
+    "peak": "12-22",
+    "zhr": 10,
+    "radiant": "Ursa Minor",
+    "velocityKmS": 33,
+    "parent": "8P/Tuttle",
+    "notes": "Quiet northern winter shower, circulating around Polaris."
+  }
+]
